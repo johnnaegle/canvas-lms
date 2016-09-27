@@ -69,7 +69,7 @@
 #         "assessments": {
 #           "description": "If an assessment type is included in the 'include' parameter, includes an array of rubric assessment objects for a given rubric, based on the assessment type requested. If the user does not request an assessment type this key will be absent.",
 #           "type": "array",
-#           "$ref": "RubricAssessment"
+#           "items": {"$ref": "RubricAssessment"}
 #         }
 #       }
 #     }

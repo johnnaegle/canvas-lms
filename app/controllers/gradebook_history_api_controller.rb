@@ -59,9 +59,9 @@
 #         },
 #         "graders": {
 #           "description": "an array of the graders who were responsible for the submissions in this response. the submissions are grouped according to the person who graded them and the assignment they were submitted for.",
-#           "example": "[]",
+#           "example": [1,2,3],
 #           "type": "array",
-#           "type": "integer"
+#           "items": {"type": "integer"}
 #         }
 #       }
 #     }
