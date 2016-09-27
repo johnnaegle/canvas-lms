@@ -19,6 +19,22 @@
 # @API Collaborations
 # API for accessing course and group collaboration information.
 #
+# @model Collaboration
+#     {
+#       "id": "Collaboration",
+#       "description": "",
+#       "required": ["id"],
+#       "properties": {
+#         "id": {
+#           "description": "The unique identifier for the collaboration.",
+#           "example": 12345,
+#           "type": "integer"
+#         }
+#       }
+#     }
+#
+#
+#
 # @model Collaborator
 #     {
 #       "id": "Collaborator",
